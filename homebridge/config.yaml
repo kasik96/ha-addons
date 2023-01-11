@@ -1,0 +1,18 @@
+name: "HomeBridge"
+version: "2023-01-08"
+slug: homebridge
+description: "Bringing HomeKit support where there is none"
+url: "https://github.com/oznu/docker-homebridge"
+arch:
+  - aarch64
+  - amd64
+  - armv7
+image: oznu/homebridge:latest
+host_network: true
+environment:
+  SCRYPTED_VOLUME: "/data/homebridge"
+webui: "https://[HOST]:[PORT:8581]"
+stage: experimental
+advanced: true
+init: false
+hassio_role: default

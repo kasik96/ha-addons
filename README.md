@@ -2,6 +2,6 @@
 
 Repository for my custom add-ons.
 
-## Scrypted
+## HomeBridge
 
-Work-in-progress. A Scrypted add-on for high-performance HomeKit camera performance.
+WIP

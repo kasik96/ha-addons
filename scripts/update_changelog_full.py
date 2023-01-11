@@ -8,7 +8,7 @@ from python_keepachangelog.changelog import Changelog, ChangelogEntry
 
 MY_DIRECTORY = os.path.dirname(__file__)
 print(MY_DIRECTORY)
-CHANGELOG_PATH = os.path.abspath(os.path.join(MY_DIRECTORY, "../scrypted/CHANGELOG.md"))
+CHANGELOG_PATH = os.path.abspath(os.path.join(MY_DIRECTORY, "../homebridge/CHANGELOG.md"))
 
 def main(new_version: str):
     cl = Changelog(source=CHANGELOG_PATH)
