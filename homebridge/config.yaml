@@ -11,7 +11,7 @@ image: oznu/homebridge
 host_network: true
 environment:
   SCRYPTED_VOLUME: "/data/homebridge"
-webui: "https://[HOST]:[PORT:8581]"
+webui: "https://[HOST]:[PORT:51651]"
 stage: experimental
 advanced: true
 init: false
