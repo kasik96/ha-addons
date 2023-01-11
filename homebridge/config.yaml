@@ -1,5 +1,5 @@
 name: "HomeBridge"
-version: "1"
+version: "latest"
 slug: homebridge
 description: "Bringing HomeKit support where there is none"
 url: "https://github.com/oznu/docker-homebridge"
