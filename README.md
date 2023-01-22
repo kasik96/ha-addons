@@ -4,4 +4,4 @@ Repository for my custom add-ons.
 
 ## HomeBridge
 
-WIP
+Just a HomeBridge for Home Assistant.
